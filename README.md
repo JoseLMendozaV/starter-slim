@@ -10,7 +10,7 @@ The new repository will generate with the same files and folders from [rundocs/s
 See the [open issues][issues] for a list of proposed features (and known issues).
 
 ## Documents
-For full documentation, see: [https://rundocs.github.io/jekyll-rtd-theme][docs]
+For full documentation, see: [https://jekyll-rtd-theme.rundocs.io][docs]
 
 ## The License
 The theme is available as open source under the terms of the [MIT License][license].
@@ -19,6 +19,6 @@ The theme is available as open source under the terms of the [MIT License][licen
 [repo]: https://github.com/rundocs/starter-slim/
 [preview]: https://rundocs.github.io/starter-slim/
 [generate]: https://github.com/rundocs/starter-slim/generate
-[docs]: https://rundocs.github.io/jekyll-rtd-theme
+[docs]: https://jekyll-rtd-theme.rundocs.io
 [issues]: https://github.com/rundocs/jekyll-rtd-theme/issues
 [license]: https://github.com/rundocs/jekyll-rtd-theme/blob/master/LICENSE
