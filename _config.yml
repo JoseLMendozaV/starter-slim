@@ -9,7 +9,7 @@ addons_branch: true
 
 addons:
   - github
-  - gems
+  - plugins
   - analytics
 
 copyright:
