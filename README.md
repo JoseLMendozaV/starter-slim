@@ -1,23 +1,15 @@
 # starter-slim
-The new repository will generate with the same files and folders from [rundocs/starter-slim][repo], You can [preview the theme to see what it looks like][preview], or even [generate it today][generate].
+1. [Generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from this repository
+2. Set up your GitHub Pages to source(/)
+3. Now you can view your documentation in your site
 
 ## site.pages
 {% for item in site.pages %}
 1. [{{ item.title | default: item.url }}]({{ site.baseurl | append: item.url }})
 {%- endfor %}
 
-## Roadmap
-See the [open issues][issues] for a list of proposed features (and known issues).
-
 ## Documents
-For full documentation, please refer to [https://rundocs.io](https://rundocs.io)
+For full documentation, please refer to [rundocs.io](https://rundocs.io/), You can also view [the theme related tests documentation](https://rundocs.github.io/jekyll-rtd-theme)
 
-## The License
-The theme is available as open source under the terms of the [MIT License][license].
-
-
-[repo]: https://github.com/rundocs/starter-slim/
-[preview]: https://rundocs.github.io/starter-slim/
-[generate]: https://github.com/rundocs/starter-slim/generate
-[issues]: https://github.com/rundocs/jekyll-rtd-theme/issues
-[license]: https://github.com/rundocs/jekyll-rtd-theme/blob/master/LICENSE
+## License
+The theme is available as open source under the terms of the [MIT License](https://github.com/rundocs/jekyll-rtd-theme/blob/master/LICENSE)
