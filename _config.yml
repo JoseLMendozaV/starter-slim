@@ -17,3 +17,9 @@ copyright:
 
 readme_index:
   with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-octicons
