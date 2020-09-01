@@ -4,11 +4,12 @@ description: Write an awesome description for your new site here
 
 remote_theme: rundocs/jekyll-rtd-theme
 
-edit: true
 addons_branch: true
+edit: true
 
 addons:
   - github
+  - i18n
   - plugins
   - analytics
 
