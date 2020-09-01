@@ -4,9 +4,12 @@
 3. Now you can view your documentation in your site
 
 ## site.pages
-{% for item in site.pages %}
-1. [{{ item.title | default: item.url }}]({{ site.baseurl | append: item.url }})
-{%- endfor %}
+
+| source | link |
+| ------ | ---- |
+{% for page in site.pages -%}
+|{{ page.path }}|[{{ page.url | relative_url }}]({{ page.url | relative_url }})|
+{% endfor %}
 
 ## Documents
 For full documentation, please refer to [rundocs.io](https://rundocs.io/), You can also view [the theme related tests documentation](https://rundocs.github.io/jekyll-rtd-theme)
